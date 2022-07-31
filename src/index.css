@@ -1,11 +1,8 @@
-@import url("https://fonts.googleapis.com/css?family=Muli&display=swap");
-
 * {
   box-sizing: border-box;
 }
 
 body {
-  font-family: "Muli", sans-serif;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -20,36 +17,34 @@ body {
   width: 90vw;
 }
 
-.p1 {
-  background-image: url("img/cat4.jpg");
-}
-.p2 {
-  background-image: url("img/cat5.jpg");
-}
-.p3 {
-  background-image: url("img/cat2.jpg");
-}
-
-.p4 {
-  background-image: url("img/cat1.jpg");
-}
-
-.p5 {
-  background-image: url("img/cat3.jpg");
-}
-
 .panel {
+  background-image: url("img/cat4.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   height: 80vh;
   border-radius: 50px;
-  color: #fff;
   cursor: pointer;
   flex: 0.5;
   margin: 10px;
   position: relative;
   -webkit-transition: all 700ms ease-in;
+}
+
+.panel:nth-of-type(2) {
+  background-image: url("img/cat5.jpg");
+}
+
+.panel:nth-of-type(3) {
+  background-image: url("img/cat2.jpg");
+}
+
+.panel:nth-of-type(4) {
+  background-image: url("img/cat3.jpg");
+}
+
+.panel:nth-of-type(5) {
+  background-image: url("img/cat1.jpg");
 }
 
 .panel.active {
