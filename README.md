@@ -4,3 +4,4 @@ As you can read from the title, this is a simple site where you can expand cute 
 ###  <img src="https://emojipedia-us.s3.amazonaws.com/source/microsoft-teams/337/rocket_1f680.png" width="35px" /> Main technologies
 `React` &nbsp; `CSS`  
 
+#
